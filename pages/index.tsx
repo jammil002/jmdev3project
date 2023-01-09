@@ -44,8 +44,8 @@ export default function Home() {
                 <h1>About Me</h1>
                 <p>My name is James Miller.
                     I am a current Computer Science student at Grand Canyon University.
-                Currently, searching for a <span className="backroundtextblue">summer internship</span>. You can get my resume
-                    <a href="../public/Resume.png"><span className="backroundtextblue"> here </span></a>
+                Currently, searching for a <span className="text-[#95afe5]">summer internship</span>. You can get my resume
+                    <a href="../public/Resume.png"><span className="text-[#95afe5]"> here </span></a>
                     or scroll down to
                     learn more
                     about me!</p>
@@ -88,7 +88,7 @@ export default function Home() {
 
         </section>
         <a id="sectionThreeLink"></a>
-        <section className="green">
+        <section className="bg-[#048a81]">
             <div className="text-right">
                 <h1>Skills</h1>
                 <p>Created and designed an active online server experience in Minecraft using Java.</p>

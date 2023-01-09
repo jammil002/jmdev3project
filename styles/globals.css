@@ -20,10 +20,6 @@ h1 {
   font-size: 40px;
 }
 
-p {
-  line-height: 1.4;
-}
-
 section {
   position: relative;
   display: flex;
@@ -34,18 +30,6 @@ section {
   width: auto;
   padding: 100px 20vw;
   margin-bottom: -1px;
-}
-
-.blue {
-  background-color: #414b5f;
-}
-
-.green {
-  background-color: #048a81;
-}
-
-.backroundtextblue {
-  color: #95afe5;
 }
 
 /* SVG Wave */

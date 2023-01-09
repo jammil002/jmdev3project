@@ -11,24 +11,24 @@ export default function Home() {
       </Head>
       <main>
         <header>
-            <nav className="flex justify-around align-middle min-h-3 py-3">
+            <nav className="flex justify-around align-middle py-5">
                 <div className="navlogo">
-                    <h4>jm.dev</h4>
+                    <h4 className="font-PressStart hover:text-purple-400">jm.dev</h4>
                 </div>
-                <ul className="navlogo text-white flex justify-around space-x-2">
+                <ul className="navlogo text-white flex justify-around space-x-2 font-BebasNeue gap-5 underline underline-offset-2">
                     <li>
-                        <a href="#sectionOneLink">About Me</a>
+                        <a href="#sectionOneLink" className='hover:text-[#95afe5]'>About Me</a>
                     </li>
                     <li>
-                        <a href="#sectionTwoLink">Hiring</a>
+                        <a href="#sectionTwoLink" className='hover:text-[#95afe5]'>Hiring</a>
                     </li>
                     <li>
-                        <a href="#sectionThreeLink">Skills</a>
+                        <a href="#sectionThreeLink" className='hover:text-[#95afe5]'>Skills</a>
                     </li>
                     <li>
-                        <a href="#sectionFourLink">Contact Me</a>
+                        <a href="#sectionFourLink" className='hover:text-[#95afe5]'>Contact Me</a>
                     </li>
-                    <li> <a href="Documents/Updated Resume.pdf">Resume</a></li>
+                    <li> <a href="../public/Resume.png" className='hover:text-red-400'>Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -41,12 +41,12 @@ export default function Home() {
 
         <section className="bg-[#414b5f]">
             <div className="pt-20 text-center">
-                <h1>About Me</h1>
-                <p>My name is James Miller.
+                <h1 className="font-BebasNeue text-4xl pb-2">About Me</h1>
+                <p className="font-BebasNeue text-lg">My name is James Miller.
                     I am a current Computer Science student at Grand Canyon University.
-                Currently, searching for a <span className="text-[#95afe5]">summer internship</span>. You can get my resume
-                    <a href="../public/Resume.png"><span className="text-[#95afe5]"> here </span></a>
-                    or scroll down to
+                Currently, searching for a <span className="underline decoration-[#95afe5]">summer internship</span>. You can get my resume 
+                    <a href="../public/Resume.png"><span className="text-[#95afe5] hover:text-red-400"> here </span></a>
+                     or scroll down to
                     learn more
                     about me!</p>
             </div>
@@ -70,8 +70,8 @@ export default function Home() {
 
         <section className="bg-[#a799b7]">
             <div className="text-left">
-                <h1>Why You Should Hire Me</h1>
-                <p>I began coding when I was 13. My knowledge is a combination of self-taught and what I have learned during my
+                <h1 className='font-BebasNeue text-4xl pb-2'>Why You Should Hire Me</h1>
+                <p className=''>I began coding when I was 13. My knowledge is a combination of self-taught and what I have learned during my
                     computer science major so far. I have worked on many projects from engineering a minecraft server heavily
                     focused on user experience to building websites.
 
@@ -90,7 +90,7 @@ export default function Home() {
         <a id="sectionThreeLink"></a>
         <section className="bg-[#048a81]">
             <div className="text-right">
-                <h1>Skills</h1>
+                <h1 className='font-BebasNeue text-4xl pb-2'>Skills</h1>
                 <p>Created and designed an active online server experience in Minecraft using Java.</p>
                 <p>3 years of experience with Java.</p>
                 <p>Time management and presentation skills </p>
@@ -106,14 +106,13 @@ export default function Home() {
         </section>
         <section>
             <a id="sectionFourLink"></a>
-            <div className="sectionFour pt-10 text-center">
-                <br />
-                <h1>Contact Me</h1>
-                <p> <a href="https://www.linkedin.com/in/james-millerw/"> LinkedIn </a>
+            <div className="sectionFour pt-20 text-center">
+                <h1 className='font-BebasNeue text-4xl pb-2'>Contact Me</h1>
+                <p> <a href="https://www.linkedin.com/in/james-millerw/" className='font-BebasNeue hover:text-[#95afe5]'> LinkedIn </a>
                     |
-                    <a href="mailto:jam1211miller@gmail.com"> Email </a>
+                    <a href="mailto:jam1211miller@gmail.com" className='font-BebasNeue hover:text-[#95afe5]'> Email </a>
                     |
-                    <a href="https://www.instagram.com/jamesmiller.12/"> Instagram </a>
+                    <a href="https://www.instagram.com/jamesmiller.12/" className='font-BebasNeue hover:text-[#95afe5]'> Instagram </a>
                 </p>
 
             </div>

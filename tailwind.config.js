@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        PressStart: ["var(--font-PressStart)", "cursive"],
+        BebasNeue: ["var(--font-BebasNeue)", "regular"],
+      },
+    },
   },
   plugins: [],
 };

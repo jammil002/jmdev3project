@@ -42,7 +42,7 @@ export default function Home() {
         <section className="bg-[#414b5f]">
             <div className="pt-20 text-center">
                 <h1 className="font-BebasNeue text-4xl pb-2">About Me</h1>
-                <p className="font-BebasNeue text-lg">My name is James Miller.
+                <p className="font-BebasNeue text-xl leading-2">My name is James Miller.
                     I am a current Computer Science student at Grand Canyon University.
                 Currently, searching for a <span className="underline decoration-[#95afe5]">summer internship</span>. You can get my resume 
                     <a href="../public/Resume.png"><span className="text-[#95afe5] hover:text-red-400"> here </span></a>

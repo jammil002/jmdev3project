@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
+/* Side-wide CSS */
 html {
   scroll-behavior: smooth;
 }
@@ -25,6 +26,7 @@ section {
   padding: 800px 20vw;
   margin-bottom: -1px;
 }
+/* Side-wide CSS */
 
 /* SVG Wave */
 .wave {
@@ -68,6 +70,7 @@ section {
 }
 /* SVG Wave */
 
+/* Phone Response */
 @media screen and (max-width: 568px) {
   .nav_links {
     display: none;
@@ -77,3 +80,4 @@ section {
     display: none;
   }
 }
+/* Phone Response */

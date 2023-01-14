@@ -4,28 +4,17 @@ import { useRef, useEffect, useState } from "react";
 import caroselImages from "../images/cImages";
 import Image from "next/image";
 
-const slider = () => {
+const Slider = () => {
   return (
     <div>
-      <motion.div className="carousel cursor-grab overflow-hidden">
-        <motion.div
-          drag="x"
-          dragConstraints={{ right: 0 }}
-          className="inner-carousel flex"
-        >
-          <motion.div className="pointer-events-none">
-            {caroselImages.map((image) => {
-              return (
-                <motion.div>
-                  <Image
-                    src={image}
-                    height={"50"}
-                    alt={"caroselImages"}
-                    className="pointer-events-none"
-                  ></Image>
-                </motion.div>
-              );
-            })}
+      <motion.div className="cursor-grab overflow-hidden">
+        <motion.div drag="x" dragConstraints={{ right: 0 }}>
+          <motion.div className="pointer-events-none flex">
+            {caroselImages.map((image) => (
+              <motion.div>
+                <Image src={image} height={"500"} alt={"caroselImages"}></Image>
+              </motion.div>
+            ))}
           </motion.div>
         </motion.div>
       </motion.div>
@@ -33,4 +22,4 @@ const slider = () => {
   );
 };
 
-export default slider;
+export default Slider;

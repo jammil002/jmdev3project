@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import jmDevLogo from "../public/logo.svg";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <header>
-          <nav className="flex justify-around align-middle py-5">
+          <nav className="flex justify-around py-5">
             <div className="navlogo">
               <h4 className="font-PressStart hover:text-purple-400">jm.dev</h4>
             </div>
@@ -38,7 +39,7 @@ export default function Home() {
               </li>
               <li>
                 {" "}
-                <a href="../public/Resume.png" className="hover:text-red-400">
+                <a href="../public/Resume.png" className="hover:text-[#95afe5]">
                   Resume
                 </a>
               </li>
@@ -46,7 +47,7 @@ export default function Home() {
           </nav>
         </header>
 
-        <section>
+        <div className="flex flex-row items-center justify-center pt-10 pb-10">
           <Image
             src={jmDevLogo}
             alt="JM.DEV Logo"
@@ -54,7 +55,7 @@ export default function Home() {
             height={300}
             priority
           />
-        </section>
+        </div>
 
         <a id="sectionOneLink"></a>
 
@@ -109,47 +110,13 @@ export default function Home() {
             <h1 className="font-BebasNeue text-4xl pb-2">
               Why You Should Hire Me
             </h1>
-            <p className="">
-              I began coding when I was 13. My knowledge is a combination of
-              self-taught and what I have learned during my computer science
-              major so far. I have worked on many projects from engineering a
-              minecraft server heavily focused on user experience to building
-              websites.
-            </p>
-            <p>
-              I have spent much time across different industries learning how to
-              work with all types of people. Teamwork, collaboration and
-              communication are my strengths.
-            </p>
-
-            <p>
-              I believe in user-first design. When an app or website breaks, it
-              is not the fault of the user rather engineer. It is our job as the
-              engineer to program for the worse case.
-            </p>
-
-            <p>
-              Built easy to use systems to organize previous organizations many
-              items, this increased productivity across the workplace.
-            </p>
+            <Slider></Slider>
           </div>
         </section>
         <a id="sectionThreeLink"></a>
         <section className="bg-[#048a81]">
           <div className="text-right">
             <h1 className="font-BebasNeue text-4xl pb-2">Skills</h1>
-            <p>
-              Created and designed an active online server experience in
-              Minecraft using Java.
-            </p>
-            <p>3 years of experience with Java.</p>
-            <p>Time management and presentation skills </p>
-            <p>Well-versed in Project Management and Leadership.</p>
-            <p>1 year of experience with HTML5/CSS/JavaScript.</p>
-            <p>Have worked with Flutter to create Android Applications.</p>
-            <p>2 years of experience with Python.</p>
-            <p>On-job experience with Sketch-up and Layout.</p>
-            <p>One year of experience with C++.</p>
           </div>
         </section>
         <section>

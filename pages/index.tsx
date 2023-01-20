@@ -47,7 +47,7 @@ export default function Home() {
           </nav>
         </header>
 
-        <div className="flex flex-row items-center justify-center pt-10 pb-10">
+        <div className="flex items-center justify-center pt-10 pb-5">
           <Image
             src={jmDevLogo}
             alt="JM.DEV Logo"
@@ -61,22 +61,31 @@ export default function Home() {
 
         <section className="bg-[#414b5f]">
           <div className="pt-20 text-center">
-            <h1 className="font-BebasNeue text-4xl pb-2">About Me</h1>
-            <p className="font-BebasNeue text-xl leading-2">
-              My name is James Miller. I am a current Computer Science student
-              at Grand Canyon University. Currently, searching for a{" "}
-              <span className="underline decoration-[#95afe5]">
-                summer internship
-              </span>
-              . You can get my resume{" "}
-              <a href="../public/Resume.png">
-                <span className="text-[#95afe5] hover:text-red-400">
-                  {" "}
-                  here{" "}
+            <h1 className="font-BebasNeue text-4xl pb-2 pt-5">About Me</h1>
+            <div className="font-BebasNeue text-xl leading-2">
+              <p>My name is James Miller.</p>
+              <p>
+                I am a current Computer Science student at Grand Canyon
+                University.
+              </p>
+              <p>
+                Currently, searching for a{" "}
+                <span className="underline decoration-[#95afe5]">
+                  summer internship
                 </span>
-              </a>{" "}
-              or scroll down to learn more about me!
-            </p>
+                .
+              </p>
+              <p>
+                You can get my resume{" "}
+                <a href="../public/Resume.png">
+                  <span className="text-[#95afe5] hover:text-red-400">
+                    {" "}
+                    here{" "}
+                  </span>
+                </a>{" "}
+                or scroll down to learn more about me!
+              </p>
+            </div>
           </div>
           <div className="wave">
             <svg
@@ -107,7 +116,7 @@ export default function Home() {
 
         <section className="bg-[#a799b7]">
           <div className="text-left">
-            <h1 className="font-BebasNeue text-4xl pb-2">
+            <h1 className="font-BebasNeue text-4xl pb-4">
               Why You Should Hire Me
             </h1>
             <Slider></Slider>
@@ -117,6 +126,9 @@ export default function Home() {
         <section className="bg-[#048a81]">
           <div className="text-right">
             <h1 className="font-BebasNeue text-4xl pb-2">Skills</h1>
+            <h4 className="font-BebasNeue">Known Languages</h4>
+            <h4 className="font-BebasNeue">Known Frameworks</h4>
+            <h4 className="font-BebasNeue">Projects</h4>
           </div>
         </section>
         <section>

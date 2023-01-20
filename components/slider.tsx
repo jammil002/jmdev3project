@@ -20,7 +20,7 @@ const Slider = () => {
                   src={image}
                   alt={"Why you should hire me"}
                   width={"700"}
-                  className="w-full h-auto"
+                  className="min-w-[10rem]"
                 ></Image>
               </motion.div>
             ))}

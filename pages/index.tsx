@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import jmDevLogo from "../public/logo.svg";
-import Slider from "../components/Slider";
+import Slider from "../components/Slider.tsx";
 
 export default function Home() {
   return (

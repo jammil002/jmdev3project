@@ -51,8 +51,8 @@ export default function Home() {
           <Image
             src={jmDevLogo}
             alt="JM.DEV Logo"
-            width={300}
-            height={300}
+            width={320}
+            height={320}
             priority
           />
         </div>

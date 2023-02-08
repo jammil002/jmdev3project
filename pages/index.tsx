@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import jmDevLogo from "../public/logo.svg";
-import Slider from "../components/Slider";
+import ImageSlider from "../components/ImageSlider";
 
 export default function Home() {
   return (
@@ -119,7 +119,7 @@ export default function Home() {
             <h1 className="font-BebasNeue text-4xl pb-4">
               Why You Should Hire Me
             </h1>
-            <Slider></Slider>
+            <ImageSlider />
           </div>
         </section>
         <a id="sectionThreeLink"></a>

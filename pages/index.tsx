@@ -62,7 +62,7 @@ export default function Home() {
         <section className="bg-[#414b5f]">
           <div className="pt-20 text-center">
             <h1 className="font-BebasNeue text-4xl pb-2 pt-5">About Me</h1>
-            <div className="font-BebasNeue text-xl leading-2">
+            <div className="font-Oswald text-xl leading-2">
               <p>My name is James Miller.</p>
               <p>
                 I am a current Computer Science student at Grand Canyon

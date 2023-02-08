@@ -9,6 +9,8 @@ module.exports = {
       fontFamily: {
         PressStart: ["var(--font-PressStart)", "cursive"],
         BebasNeue: ["var(--font-BebasNeue)", "regular"],
+        Montserrat: ["var(--font-Montserrat)", "regular"],
+        Oswald: ["var(--font-Oswald)", "regular"],
       },
     },
   },

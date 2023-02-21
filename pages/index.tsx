@@ -39,7 +39,7 @@ export default function Home() {
               </li>
               <li>
                 {" "}
-                <a href="../public/Resume.png" className="hover:text-[#95afe5]">
+                <a href="../public/Resume.pdf" className="hover:text-[#95afe5]">
                   Resume
                 </a>
               </li>
@@ -115,6 +115,10 @@ export default function Home() {
         <a id="sectionTwoLink"></a>
 
         <section className="bg-[#a799b7]">
+          <h1 className="font-BebasNeue text-4xl pb-4">
+            Well actually don&apost scroll down still working on things sorry i
+            am busy with work and school
+          </h1>
           <div className="text-left">
             <h1 className="font-BebasNeue text-4xl pb-4">
               Why You Should Hire Me

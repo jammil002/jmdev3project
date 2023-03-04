@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import jmDevLogo from "../public/logo.svg";
 import ImageSlider from "../components/ImageSlider";
+import KnownLanguages from "../components/KnownLanguages";
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
               </li>
               <li>
                 {" "}
-                <a href="../public/Resume.pdf" className="hover:text-[#95afe5]">
+                <a href="Resume.pdf" className="hover:text-[#95afe5]">
                   Resume
                 </a>
               </li>
@@ -115,10 +116,6 @@ export default function Home() {
         <a id="sectionTwoLink"></a>
 
         <section className="bg-[#a799b7]">
-          <h1 className="font-BebasNeue text-4xl pb-4">
-            Well actually don&apost scroll down still working on things sorry i
-            am busy with work and school
-          </h1>
           <div className="text-left">
             <h1 className="font-BebasNeue text-4xl pb-4">
               Why You Should Hire Me
@@ -130,9 +127,7 @@ export default function Home() {
         <section className="bg-[#048a81]">
           <div className="text-right">
             <h1 className="font-BebasNeue text-4xl pb-2">Skills</h1>
-            <h4 className="font-BebasNeue">Known Languages</h4>
-            <h4 className="font-BebasNeue">Known Frameworks</h4>
-            <h4 className="font-BebasNeue">Projects</h4>
+            <KnownLanguages />
           </div>
         </section>
         <section>

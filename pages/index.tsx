@@ -3,6 +3,7 @@ import Image from "next/image";
 import jmDevLogo from "../public/logo.svg";
 import ImageSlider from "../components/ImageSlider";
 import KnownLanguages from "../components/KnownLanguages";
+import HireCard from "../components/HireCard";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
             alt="JM.DEV Logo"
             width={320}
             height={320}
+            className=""
             priority
           />
         </div>
@@ -65,10 +67,7 @@ export default function Home() {
             <h1 className="font-BebasNeue text-4xl pb-2 pt-5">About Me</h1>
             <div className="font-Oswald text-xl leading-2">
               <p>My name is James Miller.</p>
-              <p>
-                I am a current Computer Science student at Grand Canyon
-                University.
-              </p>
+              <p>I am a Computer Science student at Grand Canyon University.</p>
               <p>
                 Currently, searching for a{" "}
                 <span className="underline decoration-[#95afe5]">
@@ -84,7 +83,7 @@ export default function Home() {
                     here{" "}
                   </span>
                 </a>{" "}
-                or scroll down to learn more about me!
+                or scroll to learn more about me!
               </p>
             </div>
           </div>
@@ -120,7 +119,24 @@ export default function Home() {
             <h1 className="font-BebasNeue text-4xl pb-4">
               Why You Should Hire Me
             </h1>
-            <ImageSlider />
+            <div className="flex flex-row flex-wrap">
+              <HireCard
+                title="Collaboration"
+                description=" I am able to articulate my thoughts clearly and listen actively to others, which helps me build strong relationships and collaborate effectively."
+              />
+              <HireCard
+                title="Adaptability"
+                description="I am able to adapt to new situations and challenges is essential for success. I understand that the business landscape is constantly evolving and that being able to pivot quickly and remain agile is essential for success."
+              />
+              <HireCard
+                title="Attitude"
+                description="My positive attitude and eagerness to learn make me an ideal candidate for this role. I am excited about the opportunity to grow my skills and knowledge, and I believe that my enthusiasm can be infectious and help motivate others."
+              />
+              <HireCard
+                title="Work"
+                description="I have a strong work ethic and am committed to delivering high-quality work. I am willing to put in the effort required to achieve my goals and support the goals of the organization."
+              />
+            </div>
           </div>
         </section>
         <a id="sectionThreeLink"></a>

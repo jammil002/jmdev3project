@@ -119,7 +119,7 @@ export default function Home() {
             <h1 className="font-BebasNeue text-4xl pb-4">
               Why You Should Hire Me
             </h1>
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-wrap">
               <HireCard
                 title="Collaboration"
                 description=" I am able to articulate my thoughts clearly and listen actively to others, which helps me build strong relationships and collaborate effectively."

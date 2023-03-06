@@ -10,7 +10,7 @@ const HireCard = ({
 }) => {
   return (
     <div className="p-2">
-      <div className="group block max-w-sm rounded-lg shadow-lg bg-white">
+      <div className="group block max-w-m rounded-lg shadow-lg bg-white">
         <div className="px-6 py-4">
           <div className="font-bold text-black text-xl mb-2 font-BebasNeue">
             {title}

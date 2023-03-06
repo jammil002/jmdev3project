@@ -26,7 +26,7 @@ const fMontserrat = Montserrat({
 });
 
 const fOswald = Oswald({
-  weight: ["400"],
+  weight: ["300"],
   subsets: ["latin"],
   variable: "--font-Oswald",
 });

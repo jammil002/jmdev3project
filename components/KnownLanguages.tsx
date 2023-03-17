@@ -34,7 +34,7 @@ const KnownLanguages = () => {
       <h4 className="font-BebasNeue">Projects</h4>
       <div className="flex justify-end">
         <Card
-          link="jammil002.github.io/whattodoinphx/"
+          link="https://jammil002.github.io/whattodoinphx/"
           title="What To Do In Phoenix"
           description="A collection of my favorite places across the valley."
         />

@@ -77,7 +77,7 @@ export default function Home() {
               </p>
               <p>
                 You can get my resume{" "}
-                <a href="../public/Resume.pdf">
+                <a href="../Resume.pdf">
                   <span className="text-[#95afe5] hover:text-red-400">
                     {" "}
                     here{" "}
